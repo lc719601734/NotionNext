@@ -67,7 +67,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     'Hi，我是氢能设备商, Hi，我是氢能方案解决商,欢迎来到🎉'
   // uuid重定向至 slug
-  UUID_REDIRECT: process.env.UUID_REDIRECT || false
+T: process.env.UUID_REDIRECT || false
 }
 
 module.exports = BLOG
