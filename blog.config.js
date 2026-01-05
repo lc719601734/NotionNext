@@ -65,9 +65,9 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是氢能设备商, Hi，我是氢能方案解决商,欢迎来到🎉'
+    'Hi，我是氢能设备商, Hi，我是氢能方案解决商,欢迎来到🎉',
   // uuid重定向至 slug
-T: process.env.UUID_REDIRECT || false
+ UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
 
 module.exports = BLOG
