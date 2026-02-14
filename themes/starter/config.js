@@ -241,9 +241,9 @@ const CONFIG = {
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
+  STARTER_CONTACT_LOCATION_TEXT: '中国',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_EMAIL_TEXT: '15524855312@139.com',
 
   // 嵌入外部表单
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
@@ -361,14 +361,14 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '你还在等待什么呢？',
+  STARTER_CTA_TITLE: '还在等待什么呢？',
   STARTER_CTA_TITLE_2: '立刻联系我们',
   STARTER_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    '访问技术分享板块，我们提供了详细的应用案例，帮助您即刻了解',
   STARTER_CTA_BUTTON: false, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
     'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  STARTER_CTA_BUTTON_TEXT: '开始体验',
+  STARTER_CTA_BUTTON_TEXT: '联系方式',
 
   STARTER_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
