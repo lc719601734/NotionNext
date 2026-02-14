@@ -62,8 +62,7 @@ const CONFIG = {
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量级的气体增压和加注解决方案',
-  STARTER_ABOUT_TEXT:
-    'PaisoTech的愿景是帮助非专业技术背景的客户，用最低成本，实现最快速地搭建专属的用气解决方案，帮助您将自己的用气问题安全、高效的解决。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强。',
+  STARTER_ABOUT_TEXT: 'PaisoTech的愿景是帮助非专业技术背景的客户,用最低成本,最快速地搭建专属的安全、高效用气解决方案。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
