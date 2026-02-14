@@ -36,7 +36,7 @@ const CONFIG = {
   STARTER_FEATURE_TITLE: '特性', // 特性
   STARTER_FEATURE_TEXT_1: 'PaisoTech产品的主要特性', // 特性
   STARTER_FEATURE_TEXT_2:
-    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务，放大品牌的价值。 ', // 特性
+    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务，放大品牌的价值。', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
   STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1
@@ -63,7 +63,7 @@ const CONFIG = {
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量级的气体增压和加注解决方案',
   STARTER_ABOUT_TEXT:
-    'PaisoTech的愿景是帮助非专业技术背景的客户，用最低成本，实现最快速地搭建专属的用气解决方案，帮助您将自己的用气问题安全、高效的解决。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强 <br /> <br /> Unleash Power, Explore Boundless,Beyond High Pressure, Paiso Leads'
+    'PaisoTech的愿景是帮助非专业技术背景的客户，用最低成本，实现最快速地搭建专属的用气解决方案，帮助您将自己的用气问题安全、高效的解决。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强 <br /> <br /> Unleash Power, Explore Boundless,Beyond High Pressure, Paiso Leads',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
