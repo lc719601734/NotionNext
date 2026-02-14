@@ -34,43 +34,43 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
+  STARTER_FEATURE_TEXT_1: 'PaisoTech产品的主要特性', // 特性
   STARTER_FEATURE_TEXT_2:
-    'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务，放大品牌的价值。 ', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '无噪音污染', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '低至60分贝的工作噪音，营造安静且高效的工作环境，杜绝员工听力损伤', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '基于电驱技术，更快的响应速度，更好的压力控制', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能，全面的急停连锁控制；具有自主知识产权的离子液活塞增压技术，长达8000h的保养周期', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '一套轻量级的气体增压和加注解决方案',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    'PaisoTech的愿景是帮助非专业技术背景的客户，用最低成本，实现最快速地搭建专属的用气解决方案，帮助您将自己的用气问题安全、高效的解决。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强 <br /> <br /> Unleash Power, Explore Boundless,Beyond High Pressure, Paiso Leads'
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
+  STARTER_ABOUT_TIPS_1: '1000+',
   STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_3: '正在运行',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
@@ -115,7 +115,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_TITLE: '用户反馈',
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   STARTER_TESTIMONIALS_TEXT_2:
-    '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+    '湃索科技刚刚起步,通过定制化服务、技术咨询，帮助多家客户成功解决了各自的用气问题',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
@@ -363,15 +363,15 @@ const CONFIG = {
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: '你还在等待什么呢？',
-  STARTER_CTA_TITLE_2: '现在开始吧',
+  STARTER_CTA_TITLE_2: '立刻联系我们',
   STARTER_CTA_DESCRIPTION:
     '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
-  STARTER_CTA_BUTTON: true, // 是否显示按钮
+  STARTER_CTA_BUTTON: false, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
     'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
   STARTER_CTA_BUTTON_TEXT: '开始体验',
 
-  STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
+  STARTER_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
