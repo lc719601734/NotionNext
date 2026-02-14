@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '湃索科技专注于氢气等特种气体的增压与加注一体化解决方案', // 英雄区文字
-  STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的气体压缩系统，助力降本增效、可靠运行与绿色能源落地', // 英雄区文字
+  STARTER_HERO_TITLE_1: '湃索科技专注于特种气体的增压与加注一体化解决方案', // 英雄区文字
+  STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的气体压缩系统，助力降本增效', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
