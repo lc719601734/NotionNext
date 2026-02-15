@@ -365,9 +365,9 @@ const CONFIG = {
   STARTER_CTA_TITLE_2: '立刻联系我们',
   STARTER_CTA_DESCRIPTION:
     '访问技术分享板块，我们提供了详细的应用案例，帮助您即刻了解',
-  STARTER_CTA_BUTTON: false, // 是否显示按钮
+  STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
+    'https://www.paisotech.com/about',
   STARTER_CTA_BUTTON_TEXT: '联系方式',
 
   STARTER_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
