@@ -51,12 +51,12 @@ const CONFIG = {
   STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
   STARTER_FEATURE_3_TEXT_1: '基于电驱技术，更快的响应速度，更好的压力控制', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  //STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
   STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能,全面的急停连锁控制,具有自主知识产权的离子液活塞增压技术,长达8000h的保养周期', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  //STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature-4', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature-4', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
