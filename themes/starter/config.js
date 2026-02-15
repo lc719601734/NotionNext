@@ -41,23 +41,23 @@ const CONFIG = {
   STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
   STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/feature1', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/feature-1', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: '无噪音污染', // 特性2
   STARTER_FEATURE_2_TEXT_1: '低至60分贝的工作噪音，营造安静且高效的工作环境，杜绝员工听力损伤', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
-    'https://www.paisotech.com/feature2', // 特性2
+    'https://www.paisotech.com/feature-2', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
   STARTER_FEATURE_3_TEXT_1: '基于电驱技术，更快的响应速度，更好的压力控制', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature3', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
   STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能，全面的急停连锁控制；具有自主知识产权的离子液活塞增压技术，长达8000h的保养周期', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature4', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature-4', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
