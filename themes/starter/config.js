@@ -198,9 +198,9 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TEXT_1: '湃索科技的团队',
   STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+    '湃索由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
@@ -290,7 +290,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造价值。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
