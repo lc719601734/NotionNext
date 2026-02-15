@@ -17,7 +17,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL:
     'https://paisotech.com/category/产品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '技术分享', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/技术分析', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/技术分享', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
@@ -36,7 +36,7 @@ const CONFIG = {
   STARTER_FEATURE_TITLE: '特性', // 特性
   STARTER_FEATURE_TEXT_1: 'PaisoTech产品的主要特性', // 特性
   STARTER_FEATURE_TEXT_2:
-    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务，放大品牌的价值。', // 特性
+    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务,放大品牌的价值。', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
   STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1
@@ -44,7 +44,7 @@ const CONFIG = {
   //STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/feature-1', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: '无噪音污染', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '低至60分贝的工作噪音，营造安静且高效的工作环境，杜绝员工听力损伤', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '低至60分贝的工作噪音,营造安静且高效的工作环境,杜绝员工听力损伤', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   //STARTER_FEATURE_2_BUTTON_URL:'https://www.paisotech.com/feature-2', // 特性2
 
@@ -54,7 +54,7 @@ const CONFIG = {
   //STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能，全面的急停连锁控制；具有自主知识产权的离子液活塞增压技术，长达8000h的保养周期', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能,全面的急停连锁控制,具有自主知识产权的离子液活塞增压技术,长达8000h的保养周期', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   //STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature-4', // 特性4
 
