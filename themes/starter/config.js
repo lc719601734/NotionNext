@@ -200,16 +200,15 @@ const CONFIG = {
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '湃索科技的团队',
   STARTER_TEAM_TEXT_2:
-    '成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,真诚的对待每一位客户/a>',
-  //'成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+    '团队成员来自中科院大化所、林德等知名机构和世界500强企业,存初心以致远、行正道而长久。',
+  //'团队成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
-      STARTER_TEAM_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
-      STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+      STARTER_TEAM_ITEM_AVATAR:'/images/starter/team/team-00.png',
+      STARTER_TEAM_ITEM_NICKNAME: 'leo',
+      STARTER_TEAM_ITEM_DESCRIPTION: '创始人兼CEO'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
