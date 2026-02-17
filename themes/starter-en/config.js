@@ -10,14 +10,14 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'PaisoTech focuses on integrated solutions for the boosting and refueling of specialty gases.', // 英雄区文字
-  STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的气体压缩系统，助力降本增效', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'PaisoTech focuses on integrated solutions for the gas boosting and refueling.', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable gas boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'Technology', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://paisotech.com/category/产品介绍', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '技术分享', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/category/技术分享', // 英雄区按钮
+    'https://paisotech.com/en/category/Technology', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: 'Knowledge', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/en/category/Knowledge', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
