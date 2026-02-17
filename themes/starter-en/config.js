@@ -21,7 +21,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
-  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image-paiso.webp', // 产品预览图 ，默认读取public目录下图片
+  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image-paiso-en.webp', // 产品预览图 ，默认读取public目录下图片
   STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
 
   // 顶部右侧导航暗流
@@ -33,37 +33,37 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'PaisoTech产品的主要特性', // 特性
+  STARTER_FEATURE_TITLE: 'Features', // 特性
+  STARTER_FEATURE_TEXT_1: 'Main features of PaisoTech products', // 特性
   STARTER_FEATURE_TEXT_2:
-    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务,放大品牌的价值。', // 特性
+    'Vision of Paisotech is to handle gas boosting and refilling tasks easily, seamlessly, and reliably, while amplifying the value of your brand.', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/feature-1', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'Ultimate Miniaturization', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'Optimize space. Eliminate waste', // 特性1
+  STARTER_FEATURE_1_BUTTON_TEXT: 'Learn more', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/en/feature-1', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '无噪音污染', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '低至60分贝的工作噪音,营造安静且高效的工作环境,杜绝员工听力损伤', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL:'https://www.paisotech.com/feature-2', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Pollution-Free', // 特性2
+  STARTER_FEATURE_2_TEXT_1: 'As low as 60dB during operation, creating a quiet and efficient working environment and protecting employees from hearing damage.', // 特性2
+  STARTER_FEATURE_2_BUTTON_TEXT: 'Learn more', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL:'https://www.paisotech.com/en/feature-2', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于电驱技术，更快的响应速度，更好的压力控制', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
+  STARTER_FEATURE_3_TITLE_1: 'Excellent Performance', // 特性3
+  STARTER_FEATURE_3_TEXT_1: 'Based on liner actuator technology, it delivers faster response and more precise pressure control.', // 特性3
+  STARTER_FEATURE_3_BUTTON_TEXT: 'Learn more', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/en/feature-3', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能,全面的急停连锁控制,具有自主知识产权的离子液活塞增压技术,长达8000h的保养周期', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature-4', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'Safe & Reliable', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'Servo brake with self-locking, emergency stop interlock, patented ionic liquid boosting, 8000h service life.', // 特性4
+  STARTER_FEATURE_4_BUTTON_TEXT: 'Learn more', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/en/feature-4', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量级的气体增压和加注解决方案',
-  STARTER_ABOUT_TEXT: 'PaisoTech的愿景是帮助非专业技术背景的客户,用最低成本,最快速地搭建专属的安全、高效用气解决方案。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强。',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/case',
+  STARTER_ABOUT_TITLE: 'A typical gas pressurization and filling solution.',
+  STARTER_ABOUT_TEXT: 'PaisoTech empowers customers to build safe, efficient and cost-effective gas solutions with ease and speed. <br /> <br /> Above high pressure, PaisoTech stands stronger.',
+  STARTER_ABOUT_BUTTON_TEXT: 'Learn more',
+  STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/en/case',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '1000+',
@@ -197,10 +197,10 @@ const CONFIG = {
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '湃索科技的团队',
+  STARTER_TEAM_TITLE: 'Team Members',
+  STARTER_TEAM_TEXT_1: 'Paisotech is founded by a group of passionate individuals who are dedicated to providing the best gas boosting and refueling solutions for our customers.',
   STARTER_TEAM_TEXT_2:
-    '团队成员来自中科院大化所、林德等知名机构和世界500强企业,存初心以致远、行正道而长久。',
+    'Team members come from renowned institutions and Fortune 500 companies such as Chinese Academy of Sciences, Linde. Stay true. Stay right. Stay long.',
   //'团队成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
