@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'PaisoTech focuses on integrated solutions for the gas boosting and refueling.', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'PaisoTech focuses on the gas boosting and refueling solutions.', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable gas boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Technology', // 英雄区按钮
