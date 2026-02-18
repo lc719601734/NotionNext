@@ -256,11 +256,11 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/chetc.svg',
-      //IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
+      IMAGE: '/images/starter/brands/graygrids.svg',
+      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
       URL: 'http://www.chetc.com.cn/',
       TITLE: '中氢新能技术有限公司'
     },
