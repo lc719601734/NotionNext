@@ -198,32 +198,32 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'Team Members',
-  STARTER_TEAM_TEXT_1: 'Paisotech is founded by a group of passionate individuals who are dedicated to providing the best gas boosting and refueling solutions for our customers.',
+  STARTER_TEAM_TEXT_1: 'Paisotech Team is dedicated to providing the best gas boosting and refueling solutions.',
   STARTER_TEAM_TEXT_2:
-    'Team members come from renowned institutions and Fortune 500 companies such as Chinese Academy of Sciences, Linde. Stay true. Stay right. Stay long.',
+    'Team members come from renowned institutions and Fortune 500 companies such as Chinese Academy of Sciences, Linde. <br /> Stay true. Stay right. Stay long.',
   //'团队成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
       STARTER_TEAM_ITEM_AVATAR:'/images/starter/team/team-00.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'leo',
-      STARTER_TEAM_ITEM_DESCRIPTION: '创始人兼CEO'
+      STARTER_TEAM_ITEM_NICKNAME: 'Leo Liu',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'CEO'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+      STARTER_TEAM_ITEM_NICKNAME: 'Sia Sun',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert and legal consultant'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Design Director'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Product Manager'
     }
   ],
 
