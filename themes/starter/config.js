@@ -259,10 +259,10 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/graygrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
-      URL: 'https://graygrids.com/',
-      TITLE: 'graygrids'
+      IMAGE: '/images/starter/brands/chetc.svg',
+      //IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
+      URL: 'http://www.chetc.com.cn/',
+      TITLE: '中氢新能技术有限公司'
     },
     {
       IMAGE: '/images/starter/brands/lineicons.svg',
