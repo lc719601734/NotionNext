@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '湃索科技专注于特种气体的增压与加注一体化解决方案', // 英雄区文字
+  STARTER_HERO_TITLE_1: '湃索科技｜分布式特气增压与加注解决方案商', // 英雄区文字
   STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的气体增压系统，助力降本增效', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
@@ -22,7 +22,7 @@ const CONFIG = {
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image-paiso.webp', // 产品预览图 ，默认读取public目录下图片
-  STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
+  //STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
 
   // 顶部右侧导航暗流
   //STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
@@ -60,7 +60,7 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量级的气体增压和加注解决方案',
+  STARTER_ABOUT_TITLE: '分布式供氢应用的解决方案',
   STARTER_ABOUT_TEXT: 'PaisoTech的愿景是帮助非专业技术背景的客户,用最低成本,最快速地搭建专属的安全、高效用气解决方案。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/case',
