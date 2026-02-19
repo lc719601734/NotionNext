@@ -66,8 +66,8 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/case',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '1000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
+  STARTER_ABOUT_TIPS_1: '10+',
+  STARTER_ABOUT_TIPS_2: '应用案例',
   STARTER_ABOUT_TIPS_3: '正在运行',
 
   // 首页价格区块
