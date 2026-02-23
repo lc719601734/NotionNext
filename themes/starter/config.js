@@ -208,22 +208,22 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR:'/images/starter/team/team-00.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Leo Liu',
-      STARTER_TEAM_ITEM_DESCRIPTION: '创始人兼CEO'
+      STARTER_TEAM_ITEM_DESCRIPTION: '总经理'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Sia Sun',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert and legal counsel'
+      STARTER_TEAM_ITEM_DESCRIPTION: '法务总监'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Design Director'
+      STARTER_TEAM_ITEM_NICKNAME: 'Quinn Wang',
+      STARTER_TEAM_ITEM_DESCRIPTION: '设计总监'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Product Manager'
+      STARTER_TEAM_ITEM_NICKNAME: 'Euan Liu',
+      STARTER_TEAM_ITEM_DESCRIPTION: '生产经理'
     }
   ],
 
