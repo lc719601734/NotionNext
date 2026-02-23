@@ -213,7 +213,7 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Sia Sun',
-      STARTER_TEAM_ITEM_DESCRIPTION: '法务总监'
+      STARTER_TEAM_ITEM_DESCRIPTION: '市场总监'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
@@ -295,12 +295,12 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: '氢气压缩机产品',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        //{ TITLE: '官方主页', URL: '/#home' },
+        { TITLE: '选型指南', URL: 'https://docs.tangly1024.com/about' },
         {
-          TITLE: '帮助支持',
+          TITLE: '技术支持',
           URL: 'https://docs.tangly1024.com/article/how-to-question'
         },
         {
@@ -310,33 +310,33 @@ const CONFIG = {
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '氦气压缩机产品',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
+          TITLE: '选型指南',
           URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
         },
         {
-          TITLE: '升级指南',
+          TITLE: '技术支持',
           URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '合作申请', URL: 'https://docs.tangly1024.com/article/latest' }
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: '定制化部署',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
+          TITLE: '场景调研与需求定制',
           URL: 'https://docs.tangly1024.com/article/start-to-write'
         },
         {
-          TITLE: '快捷键提升效率',
+          TITLE: '方案与报价',
           URL: 'https://docs.tangly1024.com/article/notion-short-key'
         },
         {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
+          TITLE: '部署案例',
+          URL: 'https://paisotech.com/article/example-5'
         }
       ]
     }
