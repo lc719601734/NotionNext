@@ -245,7 +245,7 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TEXT: '15524855312@139.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://fragrant-beginner-bef.notion.site/3100d6794d898047a1a5c0d81e503669?v=3100d6794d8980ee9006000c8eba0914&source=copy_link',
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://fragrant-beginner-bef.notion.site/3100d6794d898047a1a5c0d81e503669?v=3100d6794d8980ee9006000c8eba0914',
   //STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
