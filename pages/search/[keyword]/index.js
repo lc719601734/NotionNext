@@ -1,78 +1,45 @@
 import BLOG from '@/blog.config'
+import { getDataFromCache } from '@/lib/cache/cache_manager'
 import { siteConfig } from '@/lib/config'
-import { fetchGlobalAllData, getPostBlocks } from '@/lib/db/SiteDataApi'
-import { generateRobotsTxt } from '@/lib/utils/robots.txt'
-import { generateRss } from '@/lib/utils/rss'
-import { generateSitemapXml } from '@/lib/utils/sitemap.xml'
+import { fetchGlobalAllData } from '@/lib/db/SiteDataApi'
 import { DynamicLayout } from '@/themes/theme'
-import { generateRedirectJson } from '@/lib/utils/redirect'
-import { checkDataFromAlgolia } from '@/lib/plugins/algolia'
+import { getPageContentText } from '@/lib/db/notion/getPageContentText'
 
-/**
- * 首页布局
- * @param {*} props
- * @returns
- */
 const Index = props => {
   const theme = siteConfig('THEME', BLOG.THEME, props.NOTION_CONFIG)
-  return <DynamicLayout theme={theme} layoutName='LayoutIndex' {...props} />
+  return <DynamicLayout theme={theme} layoutName='LayoutSearch' {...props} />
 }
 
 /**
- * SSG 获取数据
+ * 服务端搜索
+ * @param {*} param0
  * @returns
  */
-export async function getStaticProps(req) {
-  const { locale } = req
-  const from = 'index'
-  const props = await fetchGlobalAllData({ from, locale })
-  const POST_PREVIEW_LINES = siteConfig(
-    'POST_PREVIEW_LINES',
-    12,
-    props?.NOTION_CONFIG
-  )
-  props.posts = props.allPages?.filter(
+export async function getStaticProps({ params: { keyword }, locale }) {
+  const props = await fetchGlobalAllData({
+    from: 'search-props',
+    locale
+  })
+  const { allPages } = props
+  const allPosts = allPages?.filter(
     page => page.type === 'Post' && page.status === 'Published'
   )
+  props.posts = await filterByMemCache(allPosts, keyword)
+  props.postCount = props.posts.length
+  const POST_LIST_STYLE = siteConfig(
+    'POST_LIST_STYLE',
+    'Page',
+    props?.NOTION_CONFIG
+  )
+  const POSTS_PER_PAGE = siteConfig('POSTS_PER_PAGE', 12, props?.NOTION_CONFIG)
 
   // 处理分页
-  if (siteConfig('POST_LIST_STYLE') === 'scroll') {
+  if (POST_LIST_STYLE === 'scroll') {
     // 滚动列表默认给前端返回所有数据
-  } else if (siteConfig('POST_LIST_STYLE') === 'page') {
-    props.posts = props.posts?.slice(
-      0,
-      siteConfig('POSTS_PER_PAGE', 12, props?.NOTION_CONFIG)
-    )
+  } else if (POST_LIST_STYLE) {
+    props.posts = props.posts?.slice(0, POSTS_PER_PAGE)
   }
-
-  // 预览文章内容
-  if (siteConfig('POST_LIST_PREVIEW', false, props?.NOTION_CONFIG)) {
-    for (const i in props.posts) {
-      const post = props.posts[i]
-      if (post.password && post.password !== '') {
-        continue
-      }
-      post.blockMap = await getPostBlocks(post.id, 'slug', POST_PREVIEW_LINES)
-    }
-  }
-
-  // 生成robotTxt
-  generateRobotsTxt(props)
-  // 生成Feed订阅
-  generateRss(props)
-  // 生成
-  generateSitemapXml(props)
-  // 检查数据是否需要从algolia删除
-  checkDataFromAlgolia(props)
-  if (siteConfig('UUID_REDIRECT', false, props?.NOTION_CONFIG)) {
-    // 生成重定向 JSON
-    generateRedirectJson(props)
-  }
-
-  // 生成全文索引 - 仅在 yarn build 时执行 && process.env.npm_lifecycle_event === 'build'
-
-  delete props.allPages
-
+  props.keyword = keyword
   return {
     props,
     revalidate: process.env.EXPORT
@@ -83,6 +50,62 @@ export async function getStaticProps(req) {
           props.NOTION_CONFIG
         )
   }
+}
+
+export function getStaticPaths() {
+  return {
+    paths: [{ params: { keyword: 'NotionNext' } }],
+    fallback: true
+  }
+}
+
+/**
+ * 在内存缓存中进行全文索引
+ * @param {*} allPosts
+ * @param keyword 关键词
+ * @returns
+ */
+async function filterByMemCache(allPosts, keyword) {
+  const filterPosts = []
+  if (keyword) {
+    keyword = keyword.trim().toLowerCase()
+  }
+  for (const post of allPosts) {
+    const cacheKey = 'page_block_' + post.id
+    const page = await getDataFromCache(cacheKey, true)
+    const tagContent =
+      post?.tags && Array.isArray(post?.tags) ? post?.tags.join(' ') : ''
+    const categoryContent =
+      post.category && Array.isArray(post.category)
+        ? post.category.join(' ')
+        : ''
+    const articleInfo = post.title + post.summary + tagContent + categoryContent
+    let hit = articleInfo.toLowerCase().indexOf(keyword) > -1
+    const contentTextList = getPageContentText(post, page)
+    // console.log('全文搜索缓存', cacheKey, page != null)
+    post.results = []
+    let hitCount = 0
+    for (const i of contentTextList) {
+      const c = contentTextList[i]
+      if (!c) {
+        continue
+      }
+      const index = c.toLowerCase().indexOf(keyword)
+      if (index > -1) {
+        hit = true
+        hitCount += 1
+        post.results.push(c)
+      } else {
+        if ((post.results.length - 1) / hitCount < 3 || i === 0) {
+          post.results.push(c)
+        }
+      }
+    }
+    if (hit) {
+      filterPosts.push(post)
+    }
+  }
+  return filterPosts
 }
 
 export default Index
