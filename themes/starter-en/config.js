@@ -213,7 +213,7 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Sia Sun',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert and legal consultant'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Legal Consultant'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
