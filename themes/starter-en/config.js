@@ -217,12 +217,12 @@ const CONFIG = {
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
+      STARTER_TEAM_ITEM_NICKNAME: 'Quinn Wang',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Design Director'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
+      STARTER_TEAM_ITEM_NICKNAME: 'Euan Liu',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Product Manager'
     }
   ],
