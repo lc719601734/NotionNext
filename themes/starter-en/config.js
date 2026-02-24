@@ -179,21 +179,21 @@ const CONFIG = {
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: 'What services does the Hydrogen Energy Drone Range Extension Center provide?',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    'We provide 25Nm³/h mobile hydrogen production and refueling station services, specifically offering on-site hydrogen production, gas replacement, and refueling services for hydrogen-fueled drones and small hydrogen-fueled aircraft. It can be integrated into a 4.2-meter light truck to achieve flexible mobility.',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: 'What are the advantages of ionic liquid hydrogen compressors compared to traditional compressors?',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    'Ionic liquid hydrogen compressors have significant advantages: a maintenance cycle of 8,000 hours (5 times that of traditional ones), energy consumption of only 1.75kW/kg (reduced by 30-40%), 50% reduction in volume, 40% reduction in weight, no oil pollution, and hydrogen purity up to 99.999%.',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: 'What is the working process of a mobile hydrogen production and refueling station?',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    'Core process: deionized water → PEM electrolysis hydrogen production → hydrogen purification → ionic liquid compressor pressurization → hydrogen storage system → refueling service, achieving on-site hydrogen production and on-demand refueling.',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: 'What are the applicable scenarios for mobile hydrogen refueling stations?',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    'Mobile hydrogen refueling stations are suitable for various scenarios: drone logistics delivery, urban air traffic, agricultural pest control, topographic surveying, emergency rescue, power inspection, and more, providing flexible hydrogen supply solutions.',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
