@@ -198,7 +198,7 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'Team Members',
-  STARTER_TEAM_TEXT_1: 'Paisotech Team is dedicated to providing the best gas boosting and refueling solutions.',
+  STARTER_TEAM_TEXT_1: 'Paisotech Team provide the best gas boosting and refueling solutions.',
   STARTER_TEAM_TEXT_2:
     'Team members come from renowned institutions and Fortune 500 companies such as Chinese Academy of Sciences, Linde. <br /> Stay true. Stay right. Stay long.',
   //'团队成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
@@ -290,7 +290,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造价值。',
+  STARTER_FOOTER_SLOGAN: 'We create value for brands and companies through technology.',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
@@ -304,38 +304,38 @@ const CONFIG = {
           URL: 'https://docs.tangly1024.com/article/how-to-question'
         },
         {
-          TITLE: 'Custom Development',
+          TITLE: 'Cooperation Opportunities',
           URL: 'https://docs.tangly1024.com/article/my-service'
         }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: 'Helium Compressor',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
+          TITLE: 'Product Series',
           URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
         },
         {
-          TITLE: '升级指南',
+          TITLE: 'Technical Support',
           URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: 'Cooperation Opportunities', URL: 'https://docs.tangly1024.com/article/latest' }
       ]
     },
     {
-      TITLE: 'Hydrogen Refueling Solutions',
+      TITLE: 'Customized Deployment',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
+          TITLE: 'Scenario Research and Customization of Requirements',
           URL: 'https://docs.tangly1024.com/article/start-to-write'
         },
         {
-          TITLE: '快捷键提升效率',
+          TITLE: 'Plans and Quotes',
           URL: 'https://docs.tangly1024.com/article/notion-short-key'
         },
         {
-          TITLE: '中国大陆使用Notion',
+          TITLE: 'Application Cases',
           URL: 'https://docs.tangly1024.com/article/notion-faster'
         }
       ]
