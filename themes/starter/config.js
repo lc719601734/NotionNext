@@ -124,7 +124,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '中电丰业',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '大连氢翼',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
@@ -142,16 +142,16 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'A surveying company',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '作为农业植保公司，我们在大面积农田植保作业中使用氢能无人机。增程中心的服务让我们的无人机能够持续作业，单次飞行时间达到 4 小时以上，相比传统电池无人机效率提升了 5 倍，而且使用氢气更加环保。',
+        '作为一家农业植保公司，我们在大面积农田植保作业中使用氢能无人机。增程中心的服务让我们的无人机能够持续作业，单次飞行时间达到 4 小时以上，相比传统电池无人机效率提升了 5 倍，而且使用氢气更加环保。',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'A Blog',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'disheng',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'An agricultural protection company',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
@@ -160,7 +160,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'An emergency rescue company',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
@@ -168,7 +168,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'An electric power inspection company',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     }
   ],
@@ -181,7 +181,7 @@ const CONFIG = {
 
   STARTER_FAQ_1_QUESTION: '氢能无人机增程中心提供什么服务？',
   STARTER_FAQ_1_ANSWER:
-    '我们提供 2Nm³/h 移动式制氢加氢站服务，专为氢燃料无人机和氢燃料小型飞机提供现场制氢、换气和加注服务，可集成于 4.2 米轻型卡车上实现灵活移动。',
+    '我们提供 25Nm³/h 移动式制氢加氢站服务，专为氢燃料无人机和氢燃料小型飞机提供现场制氢、换气和加注服务，可集成于 4.2 米轻型卡车上实现灵活移动。',
 
   STARTER_FAQ_2_QUESTION: '离子液氢气压缩机相比传统压缩机有什么优势？',
   STARTER_FAQ_2_ANSWER:
@@ -233,7 +233,7 @@ const CONFIG = {
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的新闻',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于Pasion的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '这里会发布一些关于Pasion的最新动态，包括新的动向、新的未来计划，以及新功能的特性介绍。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
@@ -242,7 +242,7 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
   STARTER_CONTACT_LOCATION_TEXT: '中国',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: '15524855312@139.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'paisotech@139.com',
 
   // 嵌入外部表单
   
