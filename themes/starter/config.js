@@ -296,32 +296,32 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '氢气压缩机产品',
+      TITLE: '关于我们',
       LINK_GROUP: [
-        //{ TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '选型指南', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '官方主页', URL: '/#home' },
+        { TITLE: '关于我们', URL: 'https://www.paisotech.com/about' },
         {
           TITLE: '技术支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
+          URL: 'https://www.paisotech.com/article/technical-support'
         },
         {
           TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          URL: 'https://www.paisotech.com/article/my-service'
         }
       ]
     },
     {
-      TITLE: '氦气压缩机产品',
+      TITLE: '氢气压缩机产品',
       LINK_GROUP: [
         {
           TITLE: '选型指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          URL: 'https://www.paisotech.com/article/selection-guide'
         },
         {
           TITLE: '技术支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          URL: 'https://www.paisotech.com/article/technical-support'
         },
-        { TITLE: '合作申请', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '合作申请', URL: 'https://www.paisotech.com/article/my-service' }
       ]
     },
     {
@@ -329,11 +329,11 @@ const CONFIG = {
       LINK_GROUP: [
         {
           TITLE: '场景调研与需求定制',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
+          URL: 'https://www.paisotech.com/article/customized-deployment'
         },
         {
           TITLE: '方案与报价',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
+          URL: 'https://www.paisotech.com/article/quote'
         },
         {
           TITLE: '部署案例',

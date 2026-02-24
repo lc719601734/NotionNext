@@ -295,32 +295,32 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: 'Hydrogen Compressor',
+      TITLE: 'About Us',
       LINK_GROUP: [
-        //{ TITLE: '官方主页', URL: '/#home' },
-        { TITLE: 'Product Series', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: 'Home Page', URL: '/#home' },
+        { TITLE: 'About Us', URL: 'https://www.paisotech.com/about' },
         {
           TITLE: 'Technical Support',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
+          URL: 'https://www.paisotech.com/article/technical-support'
         },
         {
           TITLE: 'Cooperation Opportunities',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          URL: 'https://www.paisotech.com/article/my-service'
         }
       ]
     },
     {
-      TITLE: 'Helium Compressor',
+      TITLE: 'Hydrogen Compressor',
       LINK_GROUP: [
         {
           TITLE: 'Product Series',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          URL: 'https://www.paisotech.com/product-series'
         },
         {
           TITLE: 'Technical Support',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          URL: 'https://www.paisotech.com/article/technical-support'
         },
-        { TITLE: 'Cooperation Opportunities', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: 'Cooperation Opportunities', URL: 'https://www.paisotech.com/article/my-service' }
       ]
     },
     {
@@ -328,15 +328,15 @@ const CONFIG = {
       LINK_GROUP: [
         {
           TITLE: 'Scenario Research and Customization of Requirements',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
+          URL: 'https://www.paisotech.com/article/customized-deployment'
         },
         {
           TITLE: 'Plans and Quotes',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
+          URL: 'https://www.paisotech.com/article/quotes'
         },
         {
           TITLE: 'Application Cases',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
+          URL: 'https://www.paisotech.com/article/application-cases'
         }
       ]
     }
