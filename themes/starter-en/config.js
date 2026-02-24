@@ -110,10 +110,10 @@ const CONFIG = {
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  STARTER_TESTIMONIALS_TITLE: '用户反馈',
-  STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
+  STARTER_TESTIMONIALS_TITLE: 'User feedback',
+  STARTER_TESTIMONIALS_TEXT_1: 'What our users say',
   STARTER_TESTIMONIALS_TEXT_2:
-    '湃索科技刚刚起步,通过定制化服务、技术咨询，帮助多家客户成功解决了各自的用气问题',
+    'PaisoTech is just getting started. Through customized services and technical consulting, we have helped many customers successfully solve their gas supply problems.',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
