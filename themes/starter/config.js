@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '湃索科技｜分布式气体增压与加注解决方案商', // 英雄区文字
-  STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的气体增压系统，助力降本增效', // 英雄区文字
+  STARTER_HERO_TITLE_1: '湃索科技｜分布式氢气增压与加注解决方案商', // 英雄区文字
+  STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的氢气增压系统，助力降本增效', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -36,7 +36,7 @@ const CONFIG = {
   STARTER_FEATURE_TITLE: '特性', // 特性
   STARTER_FEATURE_TEXT_1: 'PaisoTech产品的主要特性', // 特性
   STARTER_FEATURE_TEXT_2:
-    'PaisoTech的愿景是帮助您简单、无感知地稳定地解决气体增压和加注任务,放大品牌的价值。', // 特性
+    'PaisoTech的愿景是帮助您简单、无感知的解决氢气增压和加注任务,放大品牌的价值。', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
   STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1

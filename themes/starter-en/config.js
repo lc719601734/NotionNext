@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'PaisoTech focuses on the gas boosting and refueling solutions.', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable gas boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'PaisoTech focuses on the hydrogen boosting and refueling solutions.', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable hydrogen boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Technology', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -36,7 +36,7 @@ const CONFIG = {
   STARTER_FEATURE_TITLE: 'Features', // 特性
   STARTER_FEATURE_TEXT_1: 'Main features of PaisoTech products', // 特性
   STARTER_FEATURE_TEXT_2:
-    'Vision of Paisotech is to handle gas boosting and refilling tasks easily, seamlessly, and reliably, while amplifying the value of your brand.', // 特性
+    'Vision of Paisotech is to handle hydrogen boosting and refilling tasks easily, seamlessly, and reliably, while amplifying the value of your brand.', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'Ultimate Miniaturization', // 特性1
   STARTER_FEATURE_1_TEXT_1: 'Optimize space. Eliminate waste', // 特性1
@@ -60,8 +60,8 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: 'A typical gas pressurization and filling solution.',
-  STARTER_ABOUT_TEXT: 'PaisoTech empowers customers to build safe, efficient and cost-effective gas solutions with ease and speed. <br /> <br /> Above high pressure, PaisoTech stands stronger.',
+  STARTER_ABOUT_TITLE: 'A typical hydrogen boosting and filling solution.',
+  STARTER_ABOUT_TEXT: 'PaisoTech empowers customers to build safe, efficient and cost-effective hydrogen solutions with ease and speed. <br /> <br /> Above high pressure, PaisoTech stands stronger.',
   STARTER_ABOUT_BUTTON_TEXT: 'Learn more',
   STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/en/case',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
@@ -113,7 +113,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_TITLE: 'User feedback',
   STARTER_TESTIMONIALS_TEXT_1: 'What our users say',
   STARTER_TESTIMONIALS_TEXT_2:
-    'PaisoTech is just getting started. Through customized services and technical consulting, we have helped many customers successfully solve their gas supply problems.',
+    'PaisoTech is just getting started. Through customized services and technical consulting, we have helped many customers successfully solve their hydrogen supply problems.',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
@@ -181,7 +181,7 @@ const CONFIG = {
 
   STARTER_FAQ_1_QUESTION: 'What services does the Hydrogen Energy Drone Range Extension Center provide?',
   STARTER_FAQ_1_ANSWER:
-    'We provide 25Nm³/h mobile hydrogen production and refueling station services, specifically offering on-site hydrogen production, gas replacement, and refueling services for hydrogen-fueled drones and small hydrogen-fueled aircraft. It can be integrated into a 4.2-meter light truck to achieve flexible mobility.',
+    'We provide 25Nm³/h mobile hydrogen production and refueling station services, specifically offering on-site hydrogen production, hydrogen replacement, and refueling services for hydrogen-fueled drones and small hydrogen-fueled aircraft. It can be integrated into a 4.2-meter light truck to achieve flexible mobility.',
 
   STARTER_FAQ_2_QUESTION: 'What are the advantages of ionic liquid hydrogen compressors compared to traditional compressors?',
   STARTER_FAQ_2_ANSWER:
@@ -198,7 +198,7 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'Team Members',
-  STARTER_TEAM_TEXT_1: 'Paisotech Team provide the best gas boosting and refueling solutions.',
+  STARTER_TEAM_TEXT_1: 'Paisotech Team provide the best hydrogen boosting and refueling solutions.',
   STARTER_TEAM_TEXT_2:
     'Team members come from renowned institutions and Fortune 500 companies such as Chinese Academy of Sciences, Linde. <br /> Stay true. Stay right. Stay long.',
   //'团队成员来自中科院大化所、林德等知名机构和世界500强企业,有专业技术和管理经验,感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
