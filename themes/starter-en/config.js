@@ -13,9 +13,9 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'PaisoTech focuses on the hydrogen boosting and refueling solutions.', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable hydrogen boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: 'Technology', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'Products', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://paisotech.com/en/category/Technology', // 英雄区按钮
+    'https://paisotech.com/en/category/Products', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Knowledge', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/en/category/Knowledge', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
