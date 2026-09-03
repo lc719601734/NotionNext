@@ -1,14 +1,13 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/article/how-to-config-notion-next#c4768010ae7d44609b744e79e2f9959a
 
 const BLOG = {
-  API_BASE_URL: process.env.API_BASE_URL || 'https://app.notion.com/api/v3', // API默认请求地址,可以配置成自己的地址例如：https://[xxxxx].notion.site/api/v3
   // Important page_id！！！Duplicate Template from  https://tanghh.notion.site/02ab3b8678004aa69e9e415905ef32a5
   API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3', // API默认请求地址,可以配置成自己的地址例如：https://[xxxxx].notion.site/api/v3
   // Important page_id！！！Duplicate Template from  https://tanghh.notion.site/02ab3b8678004aa69e9e415905ef32a5 
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '02ab3b8678004aa69e9e415905ef32a5,en:7c1d570661754c8fbc568e00a01fd70e',
-  THEME: process.env.NEXT_PUBLIC_THEME || 'simple', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 claude,endspace,example,fukasawa,fuwari,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
+   // '02ab3b8678004aa69e9e415905ef32a5,en:7c1d570661754c8fbc568e00a01fd70e',
+  //THEME: process.env.NEXT_PUBLIC_THEME || 'simple', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 claude,endspace,example,fukasawa,fuwari,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
     '02ab3b8678004aa69e9e415905ef32a5,en:02ab3b8678004aa69e9e415905ef32a5',
   THEME: process.env.NEXT_PUBLIC_THEME || 'starter', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
@@ -94,15 +93,12 @@ const BLOG = {
   // 欢迎语打字效果回退速度
   GREETING_WORDS_BACK_SPEED:
     process.env.NEXT_PUBLIC_GREETING_WORDS_BACK_SPEED || 100,
-
-    'Hi，我是氢能设备商, Hi，我是氢能方案解决商,欢迎到来🎉',
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false,
 
   // 内嵌 Notion 子页面 URL 跟随父级文章路径，例如 /article/post/{pageId}
   INNER_PAGE_URL_PARENT_PATH:
     process.env.NEXT_PUBLIC_INNER_PAGE_URL_PARENT_PATH || false
- UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
 
 module.exports = BLOG
