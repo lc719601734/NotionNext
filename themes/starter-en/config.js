@@ -242,7 +242,7 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: 'Our location',
   STARTER_CONTACT_LOCATION_TEXT: 'China',
   STARTER_CONTACT_EMAIL_TITLE: 'How can we help you?',
-  STARTER_CONTACT_EMAIL_TEXT: 'paisotech@139.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'paisotech@foxmail.com',
 
   // 嵌入外部表单
   //STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
