@@ -22,7 +22,7 @@ describe('getNotionAPI', () => {
 
     expect(NotionAPI).toHaveBeenCalledWith(
       expect.objectContaining({
-        apiBaseUrl: 'https://app.notion.com/api/v3',
+        apiBaseUrl: 'https://www.notion.so/api/v3',
         ofetchOptions: {
           headers: {
             'User-Agent': 'NotionNext (+https://github.com/NotionNext/NotionNext)'
