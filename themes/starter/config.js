@@ -249,7 +249,7 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
   STARTER_CONTACT_LOCATION_TEXT: '中国',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'paisotech@139.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'paisotech@foxmail.com',
 
   // 嵌入外部表单
   
