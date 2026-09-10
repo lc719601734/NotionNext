@@ -44,12 +44,12 @@ const CONFIG = {
   STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/en/feature-1', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: 'Pollution-Free', // 特性2
-  STARTER_FEATURE_2_TEXT_1: 'As low as 60dB during operation, creating a quiet and efficient working environment and protecting employees from hearing damage.', // 特性2
+  STARTER_FEATURE_2_TEXT_1: 'As low as 65dB during operation, creating a quiet and efficient working environment and protecting employees from hearing damage.', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: 'Learn more', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:'https://www.paisotech.com/en/feature-2', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: 'Excellent Performance', // 特性3
-  STARTER_FEATURE_3_TEXT_1: 'Based on liner actuator technology, it delivers faster response and more precise pressure control.', // 特性3
+  STARTER_FEATURE_3_TEXT_1: 'Based on excellent electric drive control technology, it offers faster response and better pressure control; quick start in extremely cold regions: compared to traditional hydraulic-driven compressors that need tens of minutes to warm up in low temperatures, our equipment can be used and started anytime.', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: 'Learn more', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/en/feature-3', // 特性3
 

@@ -56,7 +56,7 @@ const CONFIG = {
   STARTER_FEATURE_2_BUTTON_URL:'https://www.paisotech.com/feature-2', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于电驱技术，更快的响应速度，更好的压力控制', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '基于优秀的电驱控制技术，更快的响应速度和更好的压力控制；严寒地区低温快速启动：相比于传统液压驱动压缩机在低温下需要数十分钟预热，而我们的设备可以做到随用随启', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
 
