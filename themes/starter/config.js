@@ -51,7 +51,7 @@ const CONFIG = {
   STARTER_FEATURE_1_BUTTON_URL: 'https://www.paisotech.com/feature-1', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: '无噪音污染', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '低至60分贝的工作噪音,营造安静且高效的工作环境,杜绝员工听力损伤', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '低至65分贝的工作噪音,营造安静且高效的工作环境,杜绝员工听力损伤', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:'https://www.paisotech.com/feature-2', // 特性2
 
