@@ -17,7 +17,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '湃索科技｜无油压缩与换热技术平台，服务氢气与氦气两大气体应用', // 英雄区文字
+  STARTER_HERO_TITLE_1: '湃索科技｜氢气和氦气的无油压缩与换热技术平台', // 英雄区文字
   STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的特气增压系统，助力降本增效', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
