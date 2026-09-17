@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'PaisoTech focuses on the hydrogen boosting and refueling solutions.', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable hydrogen boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Oil-free compression and heat exchange platform for hydrogen and helium applications.', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable hydrogen and helium boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Products', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
