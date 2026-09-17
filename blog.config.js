@@ -23,7 +23,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || 'Hydrogen Compressor and Refueling🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.paisotech.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Hydrogen Compressor,Hydrogen Refueling', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.svg', // blog favicon 配置, 默认使用 /public/favicon.svg，支持在线图片，如 https://img.imesong.com/favicon.png
   PWA_ENABLE: process.env.NEXT_PUBLIC_PWA_ENABLE || false, // 是否启用 PWA 安装入口；也可在 Notion_Config 中配置 PWA_ENABLE=true
   PWA_NAME: process.env.NEXT_PUBLIC_PWA_NAME || '', // PWA 安装名称；默认读取站点标题，通常无需单独配置
   PWA_SHORT_NAME: process.env.NEXT_PUBLIC_PWA_SHORT_NAME || '', // PWA 短名称；默认读取站点标题，通常无需单独配置
