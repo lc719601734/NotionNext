@@ -203,7 +203,7 @@ const CONFIG = {
     '移动式加氢站适用于多种场景：无人机物流配送、城市空中交通、农业植保、地形测绘、应急救援、电力巡检等，提供灵活的氢气供应解决方案。',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '湃索科技的团队',
   STARTER_TEAM_TEXT_2:

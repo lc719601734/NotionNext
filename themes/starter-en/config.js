@@ -196,7 +196,7 @@ const CONFIG = {
     'Mobile hydrogen refueling stations are suitable for various scenarios: drone logistics delivery, urban air traffic, agricultural pest control, topographic surveying, emergency rescue, power inspection, and more, providing flexible hydrogen supply solutions.',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'Team Members',
   STARTER_TEAM_TEXT_1: 'Paisotech Team provide the best hydrogen boosting and refueling solutions.',
   STARTER_TEAM_TEXT_2:
