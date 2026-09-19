@@ -13,11 +13,11 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'Oil-free compression and heat exchange platform for hydrogen and helium applications.', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable hydrogen and helium boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: 'Products', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'New Products', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://paisotech.com/en/category/Products', // 英雄区按钮
+    'https://paisotech.com/en/category/new-products', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Knowledge', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/en/category/Knowledge', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/en/category/technology', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''

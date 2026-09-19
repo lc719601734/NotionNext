@@ -20,11 +20,11 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '湃索科技｜氢气和氦气的无油压缩与换热技术平台', // 英雄区文字
   STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的特气增压系统，助力降本增效', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '新品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://paisotech.com/category/产品介绍', // 英雄区按钮
+    'https://paisotech.com/category/new-products', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '技术分享', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/category/技术分享', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/category/technology', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
