@@ -75,7 +75,7 @@ export const Hero = props => {
               <div className='w-full px-4'>
                 <div
                   className='relative z-10 mx-auto max-w-[845px] opacity-100 visible'>
-                  <div className='mt-16'>
+                  <div className='mt-16 overflow-hidden rounded-[18px] border border-white/10 bg-white/5 shadow-[0_30px_80px_rgba(10,18,42,0.18)]'>
                     <LazyImage
                       src={starterConfig(
                         'STARTER_HERO_PREVIEW_IMAGE',
@@ -84,12 +84,12 @@ export const Hero = props => {
                       )}
                       alt={starterConfig('TITLE', null, config)}
                       title={starterConfig('TITLE', null, config)}
-                      className='mx-auto max-w-full rounded-t-xl rounded-tr-xl'
+                      className='mx-auto w-full object-cover object-center'
                     />
                   </div>
 
                   {/* 背景图 */}
-                  <div className='absolute -left-9 bottom-0 z-[-1]'>
+                  <div className='absolute -left-10 bottom-2 z-[-1]'>
                     <LazyImage src='/images/starter/bg-hero-circle.svg' alt='bg-circle-left' />
                   </div>
                   <div className='absolute -right-6 -top-6 z-[-1]'>
