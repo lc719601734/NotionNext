@@ -41,7 +41,7 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '核心能力', // 特性
-  STARTER_FEATURE_TEXT_1: '面向工况需求的高可靠产品能力', // 特性
+  STARTER_FEATURE_TEXT_1: '高可靠性的产品能力', // 特性
   STARTER_FEATURE_TEXT_2:
     'PaisoTech 聚焦氢气增压、热管理与现场供能解决方案，帮助客户提升系统稳定性、降低运维成本，并加速产品落地应用。', // 特性
 
