@@ -23,7 +23,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://www.paisotech.com/new-products', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '技术资料', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '技术分享', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://www.paisotech.com/technology', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
