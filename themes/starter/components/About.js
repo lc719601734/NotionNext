@@ -14,7 +14,7 @@ export const About = () => {
         id='about'
         className='bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]'>
         <div className='container'>
-          <div className='wow fadeInUp' data-wow-delay='.2s'>
+          <div>
             <div className='-mx-4 flex flex-wrap items-center'>
               {/* 左侧的文字说明板块 */}
               <div className='w-full px-4 lg:w-1/2'>

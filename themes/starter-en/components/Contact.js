@@ -13,56 +13,57 @@ export const Contact = () => {
         <div className='absolute left-0 top-0 -z-[1] h-full w-full dark:bg-dark'></div>
         <div className='absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#E9F9FF] dark:bg-dark-700 lg:h-[45%] xl:h-1/2'></div>
         <div className='container px-4'>
-          <div className='-mx-4 flex flex-wrap items-center'>
-            {/* 联系方式左侧文字 */}
-            <div className='w-full px-4 lg:w-7/12 xl:w-8/12'>
+          <div className='-mx-4 flex flex-wrap items-center lg:items-start'>
+            <div className='w-full px-4 lg:w-7/12 xl:w-7/12'>
               <div className='ud-contact-content-wrapper'>
-                <div className='ud-contact-title mb-12 lg:mb-[150px]'>
-                  <span className='mb-6 block text-base font-medium text-dark dark:text-white'>
+                <div className='ud-contact-title mb-10 md:mb-14'>
+                  <span className='mb-6 block text-base font-medium uppercase tracking-[0.16em] text-primary dark:text-white'>
                     {siteConfig('STARTER_CONTACT_TITLE')}
                   </span>
-                  <h2 className='max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white'>
+                  <h2 className='max-w-[520px] text-[32px] font-semibold leading-tight text-dark dark:text-white md:text-[46px]'>
                     {siteConfig('STARTER_CONTACT_TEXT')}
                   </h2>
                 </div>
-                <div className='mb-12 flex flex-wrap justify-between lg:mb-0'>
-                  <div className='mb-8 flex w-[330px] max-w-full'>
-                    <div className='mr-6 text-[32px] text-primary'>
-                      <SVGLocation />
-                    </div>
-                    <div>
-                      <h5 className='mb-[18px] text-lg font-semibold text-dark dark:text-white'>
+
+                <div className='mb-8 grid gap-5 md:grid-cols-2 lg:mb-0'>
+                  <div className='rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm transition duration-200 hover:shadow-md dark:border-dark-3 dark:bg-dark-2'>
+                    <div className='mb-5 flex items-center'>
+                      <div className='mr-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-[26px] text-primary'>
+                        <SVGLocation />
+                      </div>
+                      <h5 className='text-lg font-semibold text-dark dark:text-white'>
                         {siteConfig(
                           'STARTER_CONTACT_LOCATION_TITLE',
                           null,
                           CONFIG
                         )}
                       </h5>
-                      <p className='text-base text-body-color dark:text-dark-6'>
-                        {siteConfig(
-                          'STARTER_CONTACT_LOCATION_TEXT',
-                          null,
-                          CONFIG
-                        )}
-                      </p>
                     </div>
+                    <p className='text-base text-body-color dark:text-dark-6'>
+                      {siteConfig(
+                        'STARTER_CONTACT_LOCATION_TEXT',
+                        null,
+                        CONFIG
+                      )}
+                    </p>
                   </div>
-                  <div className='mb-8 flex w-[330px] max-w-full'>
-                    <div className='mr-6 text-[32px] text-primary'>
-                      <SVGEmail />
-                    </div>
-                    <div>
-                      <h5 className='mb-[18px] text-lg font-semibold text-dark dark:text-white'>
+
+                  <div className='rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm transition duration-200 hover:shadow-md dark:border-dark-3 dark:bg-dark-2'>
+                    <div className='mb-5 flex items-center'>
+                      <div className='mr-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-[26px] text-primary'>
+                        <SVGEmail />
+                      </div>
+                      <h5 className='text-lg font-semibold text-dark dark:text-white'>
                         {siteConfig(
                           'STARTER_CONTACT_EMAIL_TITLE',
                           null,
                           CONFIG
                         )}
                       </h5>
-                      <p className='text-base text-body-color dark:text-dark-6'>
-                        {siteConfig('STARTER_CONTACT_EMAIL_TEXT')}
-                      </p>
                     </div>
+                    <p className='text-base text-body-color dark:text-dark-6'>
+                      {siteConfig('STARTER_CONTACT_EMAIL_TEXT')}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -70,14 +71,8 @@ export const Contact = () => {
 
             {url && url !== '' && (
               <>
-                {/* 联系方式右侧留言 */}
-                <div className='w-full px-4 lg:w-5/12 xl:w-4/12'>
-                  <div
-                    className='wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial dark:bg-dark-2 dark:shadow-none sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]'
-                    data-wow-delay='.2s'>
-                    {/* 自定义的留言表单 、 需要对接接口 */}
-                    {/* <MessageForm/> */}
-                    {/* 嵌入外部表单 */}
+                <div className='w-full px-4 pt-6 lg:w-5/12 xl:w-5/12 lg:pt-0'>
+                  <div className='rounded-2xl border border-slate-200 bg-[#f8fbff] p-5 shadow-[0_18px_45px_rgba(15,23,42,0.08)] ring-1 ring-slate-100 dark:border-dark-3 dark:bg-dark-2 sm:p-8'>
                     <iframe
                       src={siteConfig(
                         'STARTER_CONTACT_MSG_EXTERNAL_URL',
@@ -86,7 +81,8 @@ export const Contact = () => {
                       )}
                       width='100%'
                       height='500px'
-                      frameBorder='0'></iframe>
+                      frameBorder='0'
+                      title='Contact form'></iframe>
                   </div>
                 </div>
               </>

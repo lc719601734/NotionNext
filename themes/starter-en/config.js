@@ -10,13 +10,13 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'Oil-free compression and heat exchange platform for hydrogen and helium applications.', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'Provide customers with stable, quiet, safe and reliable hydrogen and helium boosting systems to help reduce costs and improve efficiency.', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Hydrogen and Helium Compression & Heat Exchange Solutions', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'Delivering stable, low-noise, and reliable gas compression and thermal management systems for industrial customers worldwide.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: 'New Products', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'Product Overview', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://www.paisotech.com/en/new-products', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: 'Knowledge', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: 'Technical Resources', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://www.paisotech.com/en/technology', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
@@ -238,10 +238,10 @@ const CONFIG = {
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: 'Contact us',
-  STARTER_CONTACT_TEXT: 'Tell us about the problems you are encountering',
-  STARTER_CONTACT_LOCATION_TITLE: 'Our location',
+  STARTER_CONTACT_TEXT: 'We provide tailored technical support and solution design for your application needs',
+  STARTER_CONTACT_LOCATION_TITLE: 'Office & Factory',
   STARTER_CONTACT_LOCATION_TEXT: 'China',
-  STARTER_CONTACT_EMAIL_TITLE: 'How can we help you?',
+  STARTER_CONTACT_EMAIL_TITLE: 'Business inquiries',
   STARTER_CONTACT_EMAIL_TEXT: 'paisotech@foxmail.com',
 
   // 嵌入外部表单

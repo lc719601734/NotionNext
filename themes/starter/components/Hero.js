@@ -18,8 +18,7 @@ export const Hero = props => {
           <div className='-mx-4 flex flex-wrap items-center'>
             <div className='w-full px-4'>
               <div
-                className='hero-content mx-auto max-w-[780px] text-center opacity-100 visible'
-                data-wow-delay='.2s'>
+                className='hero-content mx-auto max-w-[780px] text-center opacity-100 visible'>
                 {/* 主标题 */}
                 <h1 className='mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]'>
                   {starterConfig('STARTER_HERO_TITLE_1', null, config)}
@@ -34,7 +33,7 @@ export const Hero = props => {
                     <li>
                       <SmartLink
                         href={starterConfig('STARTER_HERO_BUTTON_1_URL', '')}
-                        className='starterHeroPrimaryBtn inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color'>
+                        className='starterHeroPrimaryBtn inline-flex items-center justify-center rounded-xl bg-white px-7 py-[14px] text-center text-base font-semibold text-primary shadow-sm transition duration-200 ease-in-out hover:bg-slate-100 hover:text-primary'>
                         {starterConfig('STARTER_HERO_BUTTON_1_TEXT', null, config)}
                       </SmartLink>
                     </li>
@@ -47,9 +46,7 @@ export const Hero = props => {
                           null,
                           config
                         )}
-                        target='_blank'
-                        className='flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark'
-                        rel='noreferrer'>
+                        className='flex items-center rounded-xl border border-white/20 bg-white/10 px-6 py-[14px] text-base font-semibold text-white shadow-sm transition duration-200 ease-in-out hover:border-white/30 hover:bg-white hover:text-primary'>
                         {starterConfig(
                           'STARTER_HERO_BUTTON_2_ICON',
                           null,
@@ -77,8 +74,7 @@ export const Hero = props => {
             {starterConfig('STARTER_HERO_PREVIEW_IMAGE', null, config) && (
               <div className='w-full px-4'>
                 <div
-                  className='relative z-10 mx-auto max-w-[845px] opacity-100 visible'
-                  data-wow-delay='.25s'>
+                  className='relative z-10 mx-auto max-w-[845px] opacity-100 visible'>
                   <div className='mt-16'>
                     <LazyImage
                       src={starterConfig(

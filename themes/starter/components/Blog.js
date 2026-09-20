@@ -37,8 +37,7 @@ export const Blog = ({ posts }) => {
               return (
                 <div key={index} className='w-full px-4 md:w-1/2 lg:w-1/3'>
                   <div
-                    className='wow fadeInUp group mb-10'
-                    data-wow-delay='.1s'>
+                    className='group mb-10'>
                     <div className='mb-8 overflow-hidden rounded-[5px]'>
                       {item.pageCoverThumbnail && (
                         <SmartLink href={item?.href} className='block'>

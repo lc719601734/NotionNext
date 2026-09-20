@@ -12,8 +12,7 @@ export const SignUpForm = () => {
       <div className="flex flex-wrap -mx-4">
         <div className="w-full px-4">
           <div
-            className="wow fadeInUp relative mx-auto max-w-[525px] overflow-hidden rounded-xl shadow-form bg-white dark:bg-dark-2 py-14 px-8 text-center sm:px-12 md:px-[60px]"
-            data-wow-delay=".15s">
+            className="relative mx-auto max-w-[525px] overflow-hidden rounded-xl shadow-form bg-white dark:bg-dark-2 py-14 px-8 text-center sm:px-12 md:px-[60px]">
             <div className="mb-10 text-center">
               <a href="#" className="mx-auto inline-block max-w-[160px]">
                <Logo/>

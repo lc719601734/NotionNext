@@ -17,13 +17,13 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '湃索科技｜氢气和氦气的无油压缩与换热技术平台', // 英雄区文字
-  STARTER_HERO_TITLE_2: '为客户提供稳定、安静、安全可靠的特气增压系统，助力降本增效', // 英雄区文字
+  STARTER_HERO_TITLE_1: '氢气与氦气无油压缩与换热解决方案', // 英雄区文字
+  STARTER_HERO_TITLE_2: '为工业客户提供稳定、低噪音、安全可靠的特气增压与热管理系统，帮助提升运营效率与设备稳定性', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '新品介绍', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://www.paisotech.com/new-products', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '技术分享', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '技术资料', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://www.paisotech.com/technology', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
@@ -245,10 +245,10 @@ const CONFIG = {
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  STARTER_CONTACT_TEXT: '我们为客户提供定制化的技术支持与解决方案',
+  STARTER_CONTACT_LOCATION_TITLE: '办公/制造基地',
   STARTER_CONTACT_LOCATION_TEXT: '中国',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
+  STARTER_CONTACT_EMAIL_TITLE: '商务咨询',
   STARTER_CONTACT_EMAIL_TEXT: 'paisotech@foxmail.com',
 
   // 嵌入外部表单

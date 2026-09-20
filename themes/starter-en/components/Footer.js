@@ -15,8 +15,7 @@ export const Footer = props => {
     <>
       {/* <!-- ====== Footer Section Start --> */}
       <footer
-        className='wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]'
-        data-wow-delay='.15s'>
+        className='relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12'>

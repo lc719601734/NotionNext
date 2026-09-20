@@ -22,11 +22,14 @@ const Style = () => {
     --starter-color-text-muted: ${textMuted};
   }
 
+  #theme-starter .wow,
+  #theme-starter [class*='wow'],
   #theme-starter .hero-content,
   #theme-starter .hero-content + * {
     opacity: 1 !important;
     visibility: visible !important;
     transform: none !important;
+    animation: none !important;
   }
 
   #theme-starter [class~="bg-primary"] {
