@@ -236,7 +236,7 @@ const CONFIG = {
     'Here we will publish the latest updates about Pasion, including new developments, future plans, and new feature introductions.',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_ENABLE: false, // 联系模块开关
   STARTER_CONTACT_TITLE: 'Contact us',
   STARTER_CONTACT_TEXT: 'We provide tailored technical support and solution design for your application needs',
   STARTER_CONTACT_LOCATION_TITLE: 'Office & Factory',
@@ -360,7 +360,7 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: 'Still waiting?',
+  STARTER_CTA_TITLE: 'We provide tailored technical support and solution design for your application needs.',
   STARTER_CTA_TITLE_2: 'Contact us now',
   STARTER_CTA_DESCRIPTION:
     'Visit the technology section, where we provide detailed application cases to help you understand immediately.',

@@ -243,9 +243,9 @@ const CONFIG = {
     '这里会发布一些关于Pasion的最新动态，包括新的动向、新的未来计划，以及新功能的特性介绍。',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_ENABLE: false, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '我们为客户提供定制化的技术支持与解决方案',
+  STARTER_CONTACT_TEXT: '我们为客户提供定制化的技术支持与解决方案。',
   STARTER_CONTACT_LOCATION_TITLE: '办公/制造基地',
   STARTER_CONTACT_LOCATION_TEXT: '中国',
   STARTER_CONTACT_EMAIL_TITLE: '商务咨询',
@@ -368,7 +368,7 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '还在等待什么呢？',
+  STARTER_CTA_TITLE: '我们为客户提供定制化的技术支持与解决方案',
   STARTER_CTA_TITLE_2: '立刻联系我们',
   STARTER_CTA_DESCRIPTION:
     '访问技术分享板块，我们提供了详细的应用案例，帮助您即刻了解',
