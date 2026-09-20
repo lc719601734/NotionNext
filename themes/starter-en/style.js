@@ -18,10 +18,15 @@ const Style = () => {
     animation: none !important;
   }
 
+  #theme-starter .ud-header {
+    background: linear-gradient(180deg, rgba(11, 22, 54, 0.28) 0%, rgba(11, 22, 54, 0) 100%);
+  }
+
   #theme-starter .sticky{
     position: fixed;
     z-index: 20;
-    background-color: rgb(255 255 255 / 0.8);
+    background-color: rgb(255 255 255 / 0.9);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;

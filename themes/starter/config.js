@@ -40,10 +40,10 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'PaisoTech产品的主要特性', // 特性
+  STARTER_FEATURE_TITLE: '核心能力', // 特性
+  STARTER_FEATURE_TEXT_1: '面向工况需求的高可靠产品能力', // 特性
   STARTER_FEATURE_TEXT_2:
-    'PaisoTech的愿景是帮助您简单、无感知的解决氢气增压和加注任务,放大品牌的价值。', // 特性
+    'PaisoTech 聚焦氢气增压、热管理与现场供能解决方案，帮助客户提升系统稳定性、降低运维成本，并加速产品落地应用。', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '极致的小型化', // 特性1
   STARTER_FEATURE_1_TEXT_1: '追求极致的空间设计，减少空间浪费', // 特性1
@@ -67,8 +67,8 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '分布式供氢应用的解决方案',
-  STARTER_ABOUT_TEXT: 'PaisoTech的愿景是帮助非专业技术背景的客户,用最低成本,最快速地搭建专属的安全、高效用气解决方案。 <br /> <br /> 澎湃动力，探索无界，高压之上，湃索更强。',
+  STARTER_ABOUT_TITLE: '高效、稳定的氢能源与特气解决方案',
+  STARTER_ABOUT_TEXT: 'PaisoTech 致力于为工业与应用场景客户提供高可靠性的氢气增压、储运与热管理解决方案，帮助客户以更低成本实现更高效、可持续的用气运营。 <br /> <br /> 面向复杂场景，我们持续优化系统稳定性、安全性与现场适配能力，打造更具竞争力的产品与服务体系。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/case',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',

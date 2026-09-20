@@ -33,10 +33,10 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: 'Features', // 特性
-  STARTER_FEATURE_TEXT_1: 'Main features of PaisoTech products', // 特性
+  STARTER_FEATURE_TITLE: 'Core Capabilities', // 特性
+  STARTER_FEATURE_TEXT_1: 'High-reliability solutions for real industrial conditions', // 特性
   STARTER_FEATURE_TEXT_2:
-    'Vision of Paisotech is to handle hydrogen boosting and refilling tasks easily, seamlessly, and reliably, while amplifying the value of your brand.', // 特性
+    'PaisoTech focuses on hydrogen compression, thermal management, and on-site energy solutions to improve system reliability, reduce operational cost, and accelerate practical deployment.', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'Ultimate Miniaturization', // 特性1
   STARTER_FEATURE_1_TEXT_1: 'Optimize space. Eliminate waste', // 特性1
@@ -60,8 +60,8 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: 'A typical hydrogen boosting and filling solution.',
-  STARTER_ABOUT_TEXT: 'PaisoTech empowers customers to build safe, efficient and cost-effective hydrogen solutions with ease and speed. <br /> <br /> Above high pressure, PaisoTech stands stronger.',
+  STARTER_ABOUT_TITLE: 'Reliable hydrogen and gas handling solutions for industrial operations.',
+  STARTER_ABOUT_TEXT: 'PaisoTech delivers safe, efficient, and scalable hydrogen compression, storage, and thermal management solutions for industrial and field applications, helping customers improve system reliability and reduce long-term operating cost. <br /> <br /> Built for complex conditions, our solutions are designed to support practical deployment and long-term performance stability.',
   STARTER_ABOUT_BUTTON_TEXT: 'Learn more',
   STARTER_ABOUT_BUTTON_URL: 'https://www.paisotech.com/en/case',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',

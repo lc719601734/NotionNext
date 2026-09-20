@@ -17,28 +17,34 @@ export const MenuList = props => {
 
   let links = [
     {
-      icon: 'fas fa-archive',
-      name: locale.NAV.ARCHIVE,
-      href: '/archive',
-      show: starterConfig('HEO_MENU_ARCHIVE')
+      icon: 'fas fa-home',
+      name: '首页',
+      href: '#home',
+      show: true
     },
     {
-      icon: 'fas fa-search',
-      name: locale.NAV.SEARCH,
-      href: '/search',
-      show: starterConfig('HEO_MENU_SEARCH')
+      icon: 'fas fa-cubes',
+      name: '解决方案',
+      href: '#about',
+      show: true
     },
     {
-      icon: 'fas fa-folder',
-      name: locale.COMMON.CATEGORY,
-      href: '/category',
-      show: starterConfig('HEO_MENU_CATEGORY')
+      icon: 'fas fa-microchip',
+      name: '产品技术',
+      href: '#feature',
+      show: true
     },
     {
-      icon: 'fas fa-tag',
-      name: locale.COMMON.TAGS,
-      href: '/tag',
-      show: starterConfig('HEO_MENU_TAG')
+      icon: 'fas fa-newspaper',
+      name: '应用案例',
+      href: '#blog',
+      show: true
+    },
+    {
+      icon: 'fas fa-envelope',
+      name: '联系我们',
+      href: '#contact',
+      show: true
     }
   ]
 
