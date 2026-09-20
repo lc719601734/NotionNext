@@ -30,7 +30,6 @@ import ShareBar from '@/components/ShareBar'
 import DashboardBody from '@/components/ui/dashboard/DashboardBody'
 import DashboardHeader from '@/components/ui/dashboard/DashboardHeader'
 import { useGlobal } from '@/lib/global'
-import { loadWowJS } from '@/lib/plugins/wow'
 import { SignIn, SignUp } from '@clerk/nextjs'
 import SmartLink from '@/components/SmartLink'
 import { ArticleLock } from './components/ArticleLock'
@@ -54,11 +53,6 @@ const LayoutBase = props => {
     // 极简模式，会隐藏掉页头页脚等组件，便于嵌入网页等功能 
     const { isLiteMode } = useGlobal()
     const router = useRouter()
-
-    // 加载wow动画
-    useEffect(() => {
-        loadWowJS()
-    }, [])
 
     // 特殊简化布局，如果识别到路由中有 ?lite=true，则给网页添加一些自定义的css样式，例如背景改成黑色
     useEffect(() => {

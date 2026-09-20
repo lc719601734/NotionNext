@@ -19,7 +19,7 @@ export const Hero = props => {
           <div className='-mx-4 flex flex-wrap items-center'>
             <div className='w-full px-4'>
               <div
-                className='hero-content wow fadeInUp mx-auto max-w-[780px] text-center'
+                className='hero-content mx-auto max-w-[780px] text-center opacity-100 visible'
                 data-wow-delay='.2s'>
                 {/* 主标题 */}
                 <h1 className='mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]'>
@@ -77,7 +77,7 @@ export const Hero = props => {
             {siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, config) && (
               <div className='w-full px-4'>
                 <div
-                  className='wow fadeInUp relative z-10 mx-auto max-w-[845px]'
+                  className='relative z-10 mx-auto max-w-[845px] opacity-100 visible'
                   data-wow-delay='.25s'>
                   <div className='mt-16'>
                     {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -22,6 +22,13 @@ const Style = () => {
     --starter-color-text-muted: ${textMuted};
   }
 
+  #theme-starter .hero-content,
+  #theme-starter .hero-content + * {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+
   #theme-starter [class~="bg-primary"] {
     background-color: var(--starter-color-primary) !important;
   }

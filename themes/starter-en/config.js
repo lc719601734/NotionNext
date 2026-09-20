@@ -15,9 +15,9 @@ const CONFIG = {
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'New Products', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://paisotech.com/en/category/new-products', // 英雄区按钮
+    'https://www.paisotech.com/en/new-products', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Knowledge', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://paisotech.com/en/category/technology', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://www.paisotech.com/en/technology', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
