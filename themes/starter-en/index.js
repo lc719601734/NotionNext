@@ -12,6 +12,7 @@ import { About } from './components/About'
 import { BackToTopButton } from './components/BackToTopButton'
 import { Blog } from './components/Blog'
 import { Brand } from './components/Brand'
+import { filterStarterBlogPosts } from '@/themes/starter/blogFilters'
 import { Contact } from './components/Contact'
 import { FAQ } from './components/FAQ'
 import { Features } from './components/Features'
@@ -97,7 +98,10 @@ const LayoutBase = props => {
 const LayoutIndex = props => {
   const count = siteConfig('STARTER_BLOG_COUNT', 3, CONFIG)
   const { locale } = useGlobal()
-  const posts = props?.allNavPages ? props.allNavPages.slice(0, count) : []
+  const posts = filterStarterBlogPosts(props?.allNavPages || [], CONFIG).slice(
+    0,
+    count
+  )
   return (
     <>
       {/* 英雄区 */}
