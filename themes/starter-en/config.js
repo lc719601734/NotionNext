@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'Hydrogen and Helium Compression & Heat Exchange Solutions', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'Delivering stable, low-noise, and reliable gas compression and thermal management systems for industrial customers worldwide.', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Oil-free Hydrogen Compressor and High-Pressure Heat Exchanger Manufacturer', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'Compact, low-noise compression and thermal management systems for hydrogen refueling, drone fueling, and industrial gas applications.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Product Overview', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -54,7 +54,7 @@ const CONFIG = {
   STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/en/feature-3', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: 'Safe & Reliable', // 特性4
-  STARTER_FEATURE_4_TEXT_1: 'Servo brake with self-locking, emergency stop interlock, patented ionic liquid boosting, 8000h service life.', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'Servo brake with self-locking, emergency stop interlock, explosion-proof design, 5000-8000h service life.', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: 'Learn more', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/en/feature-4', // 特性4
 
@@ -233,7 +233,7 @@ const CONFIG = {
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: 'Recent news',
   STARTER_BLOG_TEXT_2:
-    'Here we will publish the latest updates about Pasion, including new developments, future plans, and new feature introductions.',
+    'Here we will publish the latest updates about PaisoTech, including new developments, future plans, and new feature introductions.',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关

@@ -17,8 +17,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '氢气与氦气无油压缩与换热解决方案', // 英雄区文字
-  STARTER_HERO_TITLE_2: '为工业客户提供稳定、低噪音、安全可靠的特气增压与热管理系统，帮助提升运营效率与设备稳定性', // 英雄区文字
+  STARTER_HERO_TITLE_1: '无油氢气压缩机与高压氢气换热器专业制造商', // 英雄区文字
+  STARTER_HERO_TITLE_2: '面向加氢站、无人机加注、分布式制氢与工业特气场景，提供紧凑型压缩与换热装备。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '产品介绍', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -61,7 +61,7 @@ const CONFIG = {
   STARTER_FEATURE_3_BUTTON_URL: 'https://www.paisotech.com/feature-3', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能,全面的急停连锁控制,具有自主知识产权的离子液活塞增压技术,长达8000h的保养周期', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '伺服电机制动器具备断电抱闸自锁功能,全面的急停连锁控制,防爆设计,长达5000~8000h的保养周期', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://www.paisotech.com/feature-4', // 特性4
 
