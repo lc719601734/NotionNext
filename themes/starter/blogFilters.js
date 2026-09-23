@@ -18,20 +18,22 @@ export function normalizeStarterBlogFilterList(value) {
 }
 
 export function filterStarterBlogPosts(posts = [], config = CONFIG) {
+  const mergedConfig = { ...CONFIG, ...(config || {}) }
+
   const includeCategories = normalizeStarterBlogFilterList(
-    config?.STARTER_BLOG_INCLUDE_CATEGORIES ??
+    mergedConfig.STARTER_BLOG_INCLUDE_CATEGORIES ??
       starterConfig('STARTER_BLOG_INCLUDE_CATEGORIES', [])
   )
   const excludeCategories = normalizeStarterBlogFilterList(
-    config?.STARTER_BLOG_EXCLUDE_CATEGORIES ??
+    mergedConfig.STARTER_BLOG_EXCLUDE_CATEGORIES ??
       starterConfig('STARTER_BLOG_EXCLUDE_CATEGORIES', [])
   )
   const includeTags = normalizeStarterBlogFilterList(
-    config?.STARTER_BLOG_INCLUDE_TAGS ??
+    mergedConfig.STARTER_BLOG_INCLUDE_TAGS ??
       starterConfig('STARTER_BLOG_INCLUDE_TAGS', [])
   )
   const excludeTags = normalizeStarterBlogFilterList(
-    config?.STARTER_BLOG_EXCLUDE_TAGS ??
+    mergedConfig.STARTER_BLOG_EXCLUDE_TAGS ??
       starterConfig('STARTER_BLOG_EXCLUDE_TAGS', [])
   )
 

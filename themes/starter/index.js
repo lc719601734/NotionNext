@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 'use client'
+import dynamic from 'next/dynamic'
 import Loading from '@/components/Loading'
 import NotionPage from '@/components/NotionPage'
 import { isBrowser } from '@/lib/utils'
@@ -10,7 +11,6 @@ import { useEffect } from 'react'
 import { About } from './components/About'
 import { BackToTopButton } from './components/BackToTopButton'
 import { Blog } from './components/Blog'
-import { Brand } from './components/Brand'
 import { Contact } from './components/Contact'
 import { FAQ } from './components/FAQ'
 import { Features } from './components/Features'
@@ -22,6 +22,43 @@ import { Team } from './components/Team'
 import { Testimonials } from './components/Testimonials'
 import CONFIG, { starterConfig } from './config'
 import { Style } from './style'
+
+const LazyBrand = dynamic(() => import('./components/Brand').then(mod => mod.Brand), {
+  ssr: true,
+  loading: () => null
+})
+const LazyFeatures = dynamic(
+  () => import('./components/Features').then(mod => mod.Features),
+  { ssr: true, loading: () => null }
+)
+const LazyAbout = dynamic(() => import('./components/About').then(mod => mod.About), {
+  ssr: true,
+  loading: () => null
+})
+const LazyPricing = dynamic(
+  () => import('./components/Pricing').then(mod => mod.Pricing),
+  { ssr: true, loading: () => null }
+)
+const LazyTestimonials = dynamic(
+  () => import('./components/Testimonials').then(mod => mod.Testimonials),
+  { ssr: true, loading: () => null }
+)
+const LazyFAQ = dynamic(() => import('./components/FAQ').then(mod => mod.FAQ), {
+  ssr: true,
+  loading: () => null
+})
+const LazyTeam = dynamic(() => import('./components/Team').then(mod => mod.Team), {
+  ssr: true,
+  loading: () => null
+})
+const LazyContact = dynamic(
+  () => import('./components/Contact').then(mod => mod.Contact),
+  { ssr: true, loading: () => null }
+)
+const LazyCTA = dynamic(() => import('./components/CTA').then(mod => mod.CTA), {
+  ssr: true,
+  loading: () => null
+})
 // import { MadeWithButton } from './components/MadeWithButton'
 import Comment from '@/components/Comment'
 import replaceSearchResult from '@/components/Mark'
@@ -57,12 +94,11 @@ const LayoutBase = props => {
     // 特殊简化布局，如果识别到路由中有 ?lite=true，则给网页添加一些自定义的css样式，例如背景改成黑色
     useEffect(() => {
         const isLiteMode = router.query.lite === 'true'
-        console.log(router.query.lite, isLiteMode)
         if (isLiteMode) {
             document.body.style.backgroundColor = 'black'
             document.body.style.color = 'white'
         }
-    }, [])
+    }, [router.query.lite])
 
     return (
         <div
@@ -106,21 +142,21 @@ const LayoutIndex = props => {
       {/* 英雄区 */}
       {starterConfig('STARTER_HERO_ENABLE', true, CONFIG) && <Hero {...props} />}
       {/* 合作伙伴 */}
-      {starterConfig('STARTER_BRANDS_ENABLE', true, CONFIG) && <Brand />}
+      {starterConfig('STARTER_BRANDS_ENABLE', true, CONFIG) && <LazyBrand />}
       {/* 产品特性 */}
-      {starterConfig('STARTER_FEATURE_ENABLE', true, CONFIG) && <Features />}
+      {starterConfig('STARTER_FEATURE_ENABLE', true, CONFIG) && <LazyFeatures />}
       {/* 关于 */}
-      {starterConfig('STARTER_ABOUT_ENABLE', true, CONFIG) && <About />}
+      {starterConfig('STARTER_ABOUT_ENABLE', true, CONFIG) && <LazyAbout />}
       {/* 价格 */}
-      {starterConfig('STARTER_PRICING_ENABLE', true, CONFIG) && <Pricing />}
+      {starterConfig('STARTER_PRICING_ENABLE', true, CONFIG) && <LazyPricing />}
       {/* 评价展示 */}
       {starterConfig('STARTER_TESTIMONIALS_ENABLE', true, CONFIG) && (
-        <Testimonials />
+        <LazyTestimonials />
       )}
       {/* 常见问题 */}
-      {starterConfig('STARTER_FAQ_ENABLE', true, CONFIG) && <FAQ />}
+      {starterConfig('STARTER_FAQ_ENABLE', true, CONFIG) && <LazyFAQ />}
       {/* 团队介绍 */}
-      {starterConfig('STARTER_TEAM_ENABLE', true, CONFIG) && <Team />}
+      {starterConfig('STARTER_TEAM_ENABLE', true, CONFIG) && <LazyTeam />}
       {/* 博文列表 */}
       {starterConfig('STARTER_BLOG_ENABLE', true, CONFIG) && (
         <>
@@ -134,10 +170,10 @@ const LayoutIndex = props => {
         </>
       )}
       {/* 联系方式 */}
-      {starterConfig('STARTER_CONTACT_ENABLE', true, CONFIG) && <Contact />}
+      {starterConfig('STARTER_CONTACT_ENABLE', true, CONFIG) && <LazyContact />}
 
       {/* 行动呼吁 */}
-      {starterConfig('STARTER_CTA_ENABLE', true, CONFIG) && <CTA />}
+      {starterConfig('STARTER_CTA_ENABLE', true, CONFIG) && <LazyCTA />}
     </>
   )
 }
