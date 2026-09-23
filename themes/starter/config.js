@@ -236,15 +236,15 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: '在线计算工具',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_INCLUDE_CATEGORIES: [], // 仅展示这些分类，空数组表示不限制；例如：['技术分享']
   STARTER_BLOG_EXCLUDE_CATEGORIES: [], // 排除这些分类；例如：['新闻']
   STARTER_BLOG_INCLUDE_TAGS: ['工具'], // 仅展示这些标签，空数组表示不限制；例如：['教程']
   STARTER_BLOG_EXCLUDE_TAGS: [], // 排除这些标签；例如：['公告']
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: '通过快速计算简化客户决策',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于Paisotech的最新动态，包括新的动向、新的未来计划，以及新功能的特性介绍。',
+    '这里会发布一些Paisotech提供的在线计算工具，帮助您进行快速选型和计算。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关

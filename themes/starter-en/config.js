@@ -229,11 +229,15 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: 'Our blog',
+  STARTER_BLOG_TITLE: 'Online Calculation Tools',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: 'Recent news',
+  STARTER_BLOG_INCLUDE_CATEGORIES: [], // 仅展示这些分类，空数组表示不限制；例如：['技术分享']
+  STARTER_BLOG_EXCLUDE_CATEGORIES: [], // 排除这些分类；例如：['新闻']
+  STARTER_BLOG_INCLUDE_TAGS: ['Tools'], // 仅展示这些标签，空数组表示不限制；例如：['教程']
+  STARTER_BLOG_EXCLUDE_TAGS: [], // 排除这些标签；例如：['公告']
+  STARTER_BLOG_TEXT_1: 'Simplifying Customer Decision-Making via Quick Calculation',
   STARTER_BLOG_TEXT_2:
-    'Here we will publish the latest updates about PaisoTech, including new developments, future plans, and new feature introductions.',
+    'Some online calculation tools provided by Paisotech here to help you quickly choose and calculate.',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
