@@ -1,4 +1,4 @@
-import { filterStarterBlogPosts } from '@/themes/starter/index'
+import { filterStarterBlogPosts } from '@/themes/starter/blogFilters'
 
 describe('starter blog filters', () => {
   it('shows only selected categories and hides excluded tags', () => {

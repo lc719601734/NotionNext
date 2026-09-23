@@ -244,7 +244,7 @@ const CONFIG = {
   STARTER_BLOG_EXCLUDE_TAGS: [], // 排除这些标签；例如：['公告']
   STARTER_BLOG_TEXT_1: '最近的新闻',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于Pasion的最新动态，包括新的动向、新的未来计划，以及新功能的特性介绍。',
+    '这里会发布一些关于Paisotech的最新动态，包括新的动向、新的未来计划，以及新功能的特性介绍。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
